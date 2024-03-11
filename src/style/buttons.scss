@@ -1,0 +1,70 @@
+.btnBig {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.625rem 0rem;
+    border-radius: 0.25rem;
+    color: var(--grey-0);
+    font-family: var(--font-family);
+
+    font-size: 0.8019rem;
+    font-weight: 500;
+    line-height: 1.3231rem;
+
+    &.register {
+        margin-top: 1.875rem;
+        background: var(--color-primary-Disable);
+
+        &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        }
+    }
+
+    &.user {
+        background: var(--color-primary);
+
+        &:hover {
+        background: var(--color-primary-hover);
+        }
+
+        &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        }
+    }
+
+    &.gray {
+        background: var(--grey-1);
+
+        &:hover {
+        background: var(--grey-2);
+        }
+
+        &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        }
+    }
+}
+
+.btnSm {
+    cursor: pointer;
+    align-items: center;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.25rem;
+    height: 1.9969rem;
+    color: var(--grey-0);
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 0.6875rem;
+    background: var(--grey-3);
+    font-family: var(--font-family);
+
+    &:hover {
+        background: var(--grey-2);
+    }
+}
+

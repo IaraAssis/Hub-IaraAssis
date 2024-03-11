@@ -1,0 +1,86 @@
+.logo {
+    font-weight: 700;
+    font-size: 1.4375rem;
+    font-family: var(--font-family);
+    color: var(--color-primary);
+
+    &.centeredTitle {
+        text-align: center;
+
+    }
+}
+
+.headerTitle {
+    font-weight: 700;
+    font-size: 1.4375rem;
+    font-family: var(--font-family);
+    color: var(--grey-0);
+
+    &.p {
+    color: var(--grey-1);
+    font-weight: 400;
+    font-size: 0.9025rem;
+    }
+    &.span {
+        font-weight: 400;
+        font-size: 0.9025rem;
+        color: var(--grey-0);
+    }
+    }
+
+.title {
+    line-height: 1.015rem;
+    font-size: 0.9025rem;
+    font-weight: 700;
+    color: var(--grey-0);
+    font-family: var(--font-family);
+}
+
+.error {
+    line-height: 1.015rem;
+    font-size: 0.9025rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    color: var(--color-primary);
+}
+
+.headline {
+    font-weight: 400;
+    line-height: 1.0994rem;
+    font-family: var(--font-family);
+
+    &.sm {
+    font-size: 0.5994rem;
+    color: var(--grey-1);
+    }
+
+    &.inputs {
+    font-size: 0.8119rem;
+    color: var(--grey-1);
+    }
+    &.inputLogin {
+    font-size: 0.8144rem;
+    color: var(--grey-0);
+    }
+    &.label {
+    font-size: 0.6094rem;
+    color: var(--grey-0);
+    }
+}
+.headlineBold {
+    font-weight: 600;
+    line-height: 1.125rem;
+    color: var(--grey-1);
+    font-family: var(--font-family);
+
+    &.sm {
+        font-size: 0.6019rem;
+    }
+    &.md {
+        font-size: 0.75rem;
+    }
+    &.bg{
+        font-size: 1rem;
+        color: var(--grey-0);
+    }
+}

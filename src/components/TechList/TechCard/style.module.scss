@@ -1,0 +1,48 @@
+.lists{
+    margin-top: 0.9375rem;
+    padding: 1.25rem 0.625rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid var(--grey-4);
+    background-color: var(--grey-4);
+
+    &:hover{
+        border: 1px solid var(--grey-0);
+    }
+
+    div{
+        display: flex;
+        width: 100%;
+        padding: 0.625rem;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    span{
+        display: flex;
+        gap: 0.625rem;
+        padding: 0.625rem;
+        align-items: center;
+        justify-content: flex-end;
+
+        h4{
+            width: 90%;
+
+        }
+        button{
+            color: var(--grey-0);
+        }
+    
+    }
+        
+    @media (min-width: 26.25rem) { 
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0.625rem 0.625rem;
+        margin-top: 1.25rem;
+        max-width: 37.5rem;
+
+    }
+}

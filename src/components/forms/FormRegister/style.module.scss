@@ -1,0 +1,39 @@
+.inputRegister{
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    padding: 2.5rem 1.25rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1.875rem;
+    gap: 0.625rem;
+    background-color: var(--grey-3);
+    
+
+    h1,
+    p{
+        text-align: center;
+        
+    }
+
+    select,
+    input{
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        margin-top: 0.6rem;
+        width: 100%;
+        font-size: 1.125rem;
+        font-weight: 400;
+        padding:  0.8125rem ;
+        border-radius: 0.1875rem;
+        font-family: var(--font-family);
+        color: var(--grey-0);
+        background: var(--grey-2);
+        
+        &:focus{
+            border: 1px solid var(--grey-0);
+
+        }
+    }
+}

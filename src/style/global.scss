@@ -1,0 +1,21 @@
+:root {
+    --color-primary-hover: #ff427f;
+    --color-primary: #ff577f;
+    --color-primary-Disable: #59323f;
+
+    --negative: #e83f5b;
+    --sucess: #3fe864;
+
+    --grey-0: #f8f9fa;
+    --grey-1: #868e96;
+    --grey-2: #343b41;
+    --grey-3: #212529;
+    --grey-4: #121214;
+
+    --font-family: "Inter", sans-serif;
+    
+}
+body {
+    background-color: var(--grey-4);
+
+}

@@ -1,0 +1,38 @@
+.TechList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1.25rem;
+    margin: 0 auto;
+    margin-top: 1.875rem;
+    max-width: 24.375rem;
+    
+
+    div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+
+    @media (min-width: 26.25rem) { 
+        max-width: 37.5rem;
+        
+    }
+}
+
+ul{
+    padding: 0.625rem 0.9375rem ;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    border-radius: 0.25rem;
+    max-width: 22.5rem;
+    background-color: var(--grey-3);
+
+    @media (min-width: 26.25rem) {
+        max-width: 35rem;
+        
+    }
+}
+
+

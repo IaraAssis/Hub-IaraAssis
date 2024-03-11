@@ -1,0 +1,18 @@
+.inputBox {
+    width: 100%;
+
+    .inputGrid {
+        position: relative;
+        
+    }
+
+    button {
+        position: absolute;
+        top: 0.9375rem;
+        right: 0.625rem;
+        font-size: 0.9375rem;
+        align-items: center;
+        color: var(--grey-1);
+
+    }
+}

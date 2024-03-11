@@ -1,0 +1,28 @@
+.header {
+    margin-top: 1.25rem;
+    border-bottom: 0.0625rem solid var(--grey-3);
+    border-top: 0.0625rem solid var(--grey-3);
+
+    .user {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 7.5rem;
+        align-items: flex-start;
+        margin-left: 2.0625rem;
+        gap: 1.25rem;
+
+        @media (min-width: 26.25rem) {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 1.25rem;
+        height: 5.625rem;
+        align-items: center;
+        max-width: 37.5rem;
+        margin: 0 auto;
+        
+        }
+    }
+
+}

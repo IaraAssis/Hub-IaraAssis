@@ -1,0 +1,31 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    padding: 0.625rem 1.25rem;
+
+    select,
+    input{
+        width: 100%;
+        font-size: 1.125rem;
+        font-weight: 400;
+        padding:  0.8125rem ;
+        border-radius: 0.25rem ;
+        background-color: var(--grey-2);
+        font-family: var(--font-family);
+        color: var(--grey-0);
+
+        &:focus{
+            border: 0.0625rem solid var(--grey-0);
+        }
+    }
+    select{
+        margin-bottom: 0.625rem  ;
+
+    }
+    button{
+        margin-bottom: 1.25rem;
+        
+    }
+
+}

@@ -1,0 +1,46 @@
+.modalOverlay{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    inset: 0;
+    z-index: 10;
+    background: rgba(0,0,0,.3);
+
+}
+
+.modalBox{
+    height: auto;
+    flex-direction: column;
+    width: 100%;
+    max-width: 21.875rem;
+    border-radius: 0.3125rem;
+    background: var(--grey-3);
+
+
+    div{
+        display: flex;
+        padding: 0.3125rem 0.75rem;
+        align-items: center;
+        border-radius: 0.25rem;
+        background-color: var(--grey-2);
+        justify-content: space-between;
+
+
+        button{
+            color: var(--grey-1);
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.625rem;
+
+        }
+    }
+
+    @media (min-width: 56.25rem) {
+        max-width: 25rem;
+
+    }
+
+}
